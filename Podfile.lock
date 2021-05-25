@@ -1,0 +1,16 @@
+PODS:
+  - FoursquareAPIClient (5.0.1)
+
+DEPENDENCIES:
+  - FoursquareAPIClient
+
+SPEC REPOS:
+  trunk:
+    - FoursquareAPIClient
+
+SPEC CHECKSUMS:
+  FoursquareAPIClient: 83c932298e905634e0c0cce90e3f1d6897c7a7a9
+
+PODFILE CHECKSUM: 1d4fb8bdea557c6a97ac15c5a11e183cb827866a
+
+COCOAPODS: 1.10.1

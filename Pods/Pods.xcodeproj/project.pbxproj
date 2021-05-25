@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AB03F8C7C500999E963A9C83BC3EDBD /* FoursquareAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246F93240D209EF780A555AC7FBC9D30 /* FoursquareAuthViewController.swift */; };
+		36BB8946D23C4B8DDE8DFDF3136D58B8 /* Pods-FoodaSearchTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D8E7EAF9786EE48B6A797A1F370A006 /* Pods-FoodaSearchTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53978168EA95F4F6107FD40CD1AEBBD1 /* FoursquareAPIClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C25D44A00BAAE0FACBE64A76DEF04AA7 /* FoursquareAPIClient-dummy.m */; };
+		71662D2855678C6E47F4B71370411C97 /* FoursquareAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB88879A1180DE8ABFA6362E40A16712 /* FoursquareAuthClient.swift */; };
+		75DA8B808996CFEAA7F1303DB2A8279A /* FoursquareAPIClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D57310D539B45CFE6136FB34E35CE7D /* FoursquareAPIClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BEEF73CF1222403C2BB7F62DD3A3209 /* FoursquareAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7475126B4FE72E837994C47EF4A6E5 /* FoursquareAPIClient.swift */; };
+		955D974C67A61E62F4C94034D2729777 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B5DFA2958EF4261313FD87C7EA2AE732 /* Pods-FoodaSearchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CBC75AD2CB5A77CF15FC6F92808B56 /* Pods-FoodaSearchTests-dummy.m */; };
+		B8F7A6524284357C0662D6B0217129B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C071B6C1F447A3AD03EB5031E2E7951F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CFA9CA7070AF912FE32F1A8DD18EE386 /* Pods-FoodaSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4889A9941DC8C2FD3E1D080195967B /* Pods-FoodaSearch-dummy.m */; };
+		E7CE1A0EF3A3936B04E599D356BA1A40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E8518EE8693F7E412155513A9BF45631 /* Pods-FoodaSearch-FoodaSearchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0936A6FE5BD0F0EF473785BFFD85C9C4 /* Pods-FoodaSearch-FoodaSearchUITests-dummy.m */; };
+		F2B9376CD34A13D05A2CD53750F62F66 /* Pods-FoodaSearch-FoodaSearchUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B4DDF798896D24E7DF3AA23E7BE01E5 /* Pods-FoodaSearch-FoodaSearchUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEDAF1A687DA430D076F987E59C78A34 /* Pods-FoodaSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 158CDA8AFBD2F221C75C3F60655FF26A /* Pods-FoodaSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB07E63BA3F599BC8EFEEC93AEF88D8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21E6F2BA6EDECB7A0CC549C3A1A6DD2B;
+			remoteInfo = FoursquareAPIClient;
+		};
+		CFFF1A0E17B5E2BD600C563D4E46AE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3096E3D9D9E54A3262E85200FDA1AEEE;
+			remoteInfo = "Pods-FoodaSearch";
+		};
+		E228CB14991F482BB92BA9B3EE04203C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21E6F2BA6EDECB7A0CC549C3A1A6DD2B;
+			remoteInfo = FoursquareAPIClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02CDF7BD75F5ECB4637CA14D7B7ADB01 /* Pods-FoodaSearch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodaSearch-acknowledgements.plist"; sourceTree = "<group>"; };
+		0936A6FE5BD0F0EF473785BFFD85C9C4 /* Pods-FoodaSearch-FoodaSearchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodaSearch-FoodaSearchUITests-dummy.m"; sourceTree = "<group>"; };
+		0A41A78A07B7B5A5C7533861B4677E6C /* Pods_FoodaSearch_FoodaSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodaSearch_FoodaSearchUITests.framework; path = "Pods-FoodaSearch-FoodaSearchUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C5260D5E73BCEAE077A0EB371FC7C9B /* FoursquareAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FoursquareAPIClient.framework; path = FoursquareAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		119DF094E5919877AC4D54716C539130 /* Pods_FoodaSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodaSearchTests.framework; path = "Pods-FoodaSearchTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1471A31653F4F67223BCB18C6D05B293 /* Pods-FoodaSearchTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodaSearchTests.modulemap"; sourceTree = "<group>"; };
+		158CDA8AFBD2F221C75C3F60655FF26A /* Pods-FoodaSearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodaSearch-umbrella.h"; sourceTree = "<group>"; };
+		1D57310D539B45CFE6136FB34E35CE7D /* FoursquareAPIClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoursquareAPIClient-umbrella.h"; sourceTree = "<group>"; };
+		21AA9C28A84700D1C4F11BD45F55E085 /* Pods-FoodaSearchTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodaSearchTests-Info.plist"; sourceTree = "<group>"; };
+		23038D137A290FA037856BF490BE3CEA /* Pods-FoodaSearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodaSearch.modulemap"; sourceTree = "<group>"; };
+		246F93240D209EF780A555AC7FBC9D30 /* FoursquareAuthViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoursquareAuthViewController.swift; path = FoursquareAPIClient/FoursquareAuthViewController.swift; sourceTree = "<group>"; };
+		255986EF05488DAA063E7A2D6E490E6B /* Pods-FoodaSearchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodaSearchTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2D8E7EAF9786EE48B6A797A1F370A006 /* Pods-FoodaSearchTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodaSearchTests-umbrella.h"; sourceTree = "<group>"; };
+		3E893622546800D1B17BED3EAC1D419E /* Pods-FoodaSearch-FoodaSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodaSearch-FoodaSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D6EFA35C8A4D5CE8AF514B9CCCA73F0 /* Pods-FoodaSearchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodaSearchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		542E7FE9BAC9B96342142A1F8C8EB444 /* FoursquareAPIClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FoursquareAPIClient-Info.plist"; sourceTree = "<group>"; };
+		565D8C4B23217BB0B97B1E7D8913452C /* Pods-FoodaSearch-FoodaSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodaSearch-FoodaSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CF0F1211F0B81B521F1C16F5C73E885 /* FoursquareAPIClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoursquareAPIClient.debug.xcconfig; sourceTree = "<group>"; };
+		61CBC75AD2CB5A77CF15FC6F92808B56 /* Pods-FoodaSearchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodaSearchTests-dummy.m"; sourceTree = "<group>"; };
+		66D6211F2CCDA58E12477A1A43225303 /* Pods-FoodaSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodaSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B4DDF798896D24E7DF3AA23E7BE01E5 /* Pods-FoodaSearch-FoodaSearchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodaSearch-FoodaSearchUITests-umbrella.h"; sourceTree = "<group>"; };
+		6E99D819B97B5678A177361E0E9D38EA /* Pods-FoodaSearch-FoodaSearchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodaSearch-FoodaSearchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		746FF720438ADC60439B549B8BFE98CC /* Pods-FoodaSearch-FoodaSearchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodaSearch-FoodaSearchUITests.modulemap"; sourceTree = "<group>"; };
+		7943265182DBA68294D1AAC4AAC69966 /* FoursquareAPIClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FoursquareAPIClient.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E26EDE7E35D11673C5F86A419479CAF /* Pods-FoodaSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodaSearch.release.xcconfig"; sourceTree = "<group>"; };
+		A8281F7D1B576B512327F3549A01A80A /* Pods-FoodaSearch-FoodaSearchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodaSearch-FoodaSearchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A92983259A9823486BB5DA343754F460 /* FoursquareAPIClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FoursquareAPIClient-prefix.pch"; sourceTree = "<group>"; };
+		AA7475126B4FE72E837994C47EF4A6E5 /* FoursquareAPIClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoursquareAPIClient.swift; path = FoursquareAPIClient/FoursquareAPIClient.swift; sourceTree = "<group>"; };
+		B2B94B8FABECF8453DAB1F72470BD409 /* Pods-FoodaSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodaSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC4889A9941DC8C2FD3E1D080195967B /* Pods-FoodaSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodaSearch-dummy.m"; sourceTree = "<group>"; };
+		C25D44A00BAAE0FACBE64A76DEF04AA7 /* FoursquareAPIClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FoursquareAPIClient-dummy.m"; sourceTree = "<group>"; };
+		C26B5DC5237C8EF2A7D1E50CCD52609E /* Pods-FoodaSearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodaSearch-Info.plist"; sourceTree = "<group>"; };
+		CE6FEA11396B28A7A679E9D207C78EC7 /* Pods-FoodaSearch-FoodaSearchUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodaSearch-FoodaSearchUITests-Info.plist"; sourceTree = "<group>"; };
+		CF996E2481C3618CFB9AE95B4F51AF7C /* Pods-FoodaSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodaSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		DCEA0F741473E6D39C75A1818BEA8102 /* Pods-FoodaSearch-FoodaSearchUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodaSearch-FoodaSearchUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E85F0352F2D7C6652847A4EC63ED326E /* FoursquareAPIClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FoursquareAPIClient.modulemap; sourceTree = "<group>"; };
+		E9C7671880FCA9AA5BCA2878B09493C5 /* Pods-FoodaSearch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodaSearch-frameworks.sh"; sourceTree = "<group>"; };
+		EB88879A1180DE8ABFA6362E40A16712 /* FoursquareAuthClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FoursquareAuthClient.swift; path = FoursquareAPIClient/FoursquareAuthClient.swift; sourceTree = "<group>"; };
+		F5DD56BD0E11D3139360A8D380980EE2 /* Pods-FoodaSearch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodaSearch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB21C34076453A1F1883EE6A15A1476E /* Pods_FoodaSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodaSearch.framework; path = "Pods-FoodaSearch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22D703F4F96693161874DC4C06914B3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955D974C67A61E62F4C94034D2729777 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47591C5225F604379865C005393F2B53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C071B6C1F447A3AD03EB5031E2E7951F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A206E25AA758341A5FD43B59BF76F4C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CE1A0EF3A3936B04E599D356BA1A40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23EFC5A94486A19532C02902DCDB11F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F7A6524284357C0662D6B0217129B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FCE02A01CAAE578B5B46A5A66CB7E82 /* Pods-FoodaSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				1471A31653F4F67223BCB18C6D05B293 /* Pods-FoodaSearchTests.modulemap */,
+				4D6EFA35C8A4D5CE8AF514B9CCCA73F0 /* Pods-FoodaSearchTests-acknowledgements.markdown */,
+				255986EF05488DAA063E7A2D6E490E6B /* Pods-FoodaSearchTests-acknowledgements.plist */,
+				61CBC75AD2CB5A77CF15FC6F92808B56 /* Pods-FoodaSearchTests-dummy.m */,
+				21AA9C28A84700D1C4F11BD45F55E085 /* Pods-FoodaSearchTests-Info.plist */,
+				2D8E7EAF9786EE48B6A797A1F370A006 /* Pods-FoodaSearchTests-umbrella.h */,
+				B2B94B8FABECF8453DAB1F72470BD409 /* Pods-FoodaSearchTests.debug.xcconfig */,
+				66D6211F2CCDA58E12477A1A43225303 /* Pods-FoodaSearchTests.release.xcconfig */,
+			);
+			name = "Pods-FoodaSearchTests";
+			path = "Target Support Files/Pods-FoodaSearchTests";
+			sourceTree = "<group>";
+		};
+		3A23A93BE6E228ECD7FC74FBB14CB70A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D10536500349BD013EEE6C91ABACA1F /* Pods-FoodaSearch */,
+				7A6848F4036A0E712D86EE47371E9E19 /* Pods-FoodaSearch-FoodaSearchUITests */,
+				0FCE02A01CAAE578B5B46A5A66CB7E82 /* Pods-FoodaSearchTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3D10536500349BD013EEE6C91ABACA1F /* Pods-FoodaSearch */ = {
+			isa = PBXGroup;
+			children = (
+				23038D137A290FA037856BF490BE3CEA /* Pods-FoodaSearch.modulemap */,
+				F5DD56BD0E11D3139360A8D380980EE2 /* Pods-FoodaSearch-acknowledgements.markdown */,
+				02CDF7BD75F5ECB4637CA14D7B7ADB01 /* Pods-FoodaSearch-acknowledgements.plist */,
+				BC4889A9941DC8C2FD3E1D080195967B /* Pods-FoodaSearch-dummy.m */,
+				E9C7671880FCA9AA5BCA2878B09493C5 /* Pods-FoodaSearch-frameworks.sh */,
+				C26B5DC5237C8EF2A7D1E50CCD52609E /* Pods-FoodaSearch-Info.plist */,
+				158CDA8AFBD2F221C75C3F60655FF26A /* Pods-FoodaSearch-umbrella.h */,
+				CF996E2481C3618CFB9AE95B4F51AF7C /* Pods-FoodaSearch.debug.xcconfig */,
+				9E26EDE7E35D11673C5F86A419479CAF /* Pods-FoodaSearch.release.xcconfig */,
+			);
+			name = "Pods-FoodaSearch";
+			path = "Target Support Files/Pods-FoodaSearch";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A6848F4036A0E712D86EE47371E9E19 /* Pods-FoodaSearch-FoodaSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				746FF720438ADC60439B549B8BFE98CC /* Pods-FoodaSearch-FoodaSearchUITests.modulemap */,
+				6E99D819B97B5678A177361E0E9D38EA /* Pods-FoodaSearch-FoodaSearchUITests-acknowledgements.markdown */,
+				A8281F7D1B576B512327F3549A01A80A /* Pods-FoodaSearch-FoodaSearchUITests-acknowledgements.plist */,
+				0936A6FE5BD0F0EF473785BFFD85C9C4 /* Pods-FoodaSearch-FoodaSearchUITests-dummy.m */,
+				DCEA0F741473E6D39C75A1818BEA8102 /* Pods-FoodaSearch-FoodaSearchUITests-frameworks.sh */,
+				CE6FEA11396B28A7A679E9D207C78EC7 /* Pods-FoodaSearch-FoodaSearchUITests-Info.plist */,
+				6B4DDF798896D24E7DF3AA23E7BE01E5 /* Pods-FoodaSearch-FoodaSearchUITests-umbrella.h */,
+				565D8C4B23217BB0B97B1E7D8913452C /* Pods-FoodaSearch-FoodaSearchUITests.debug.xcconfig */,
+				3E893622546800D1B17BED3EAC1D419E /* Pods-FoodaSearch-FoodaSearchUITests.release.xcconfig */,
+			);
+			name = "Pods-FoodaSearch-FoodaSearchUITests";
+			path = "Target Support Files/Pods-FoodaSearch-FoodaSearchUITests";
+			sourceTree = "<group>";
+		};
+		8674D9E2C577A04A535E26D1A04AE1D1 /* FoursquareAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				AA7475126B4FE72E837994C47EF4A6E5 /* FoursquareAPIClient.swift */,
+				EB88879A1180DE8ABFA6362E40A16712 /* FoursquareAuthClient.swift */,
+				246F93240D209EF780A555AC7FBC9D30 /* FoursquareAuthViewController.swift */,
+				B14FEA8F1FA4909226D329D1313417F3 /* Support Files */,
+			);
+			name = FoursquareAPIClient;
+			path = FoursquareAPIClient;
+			sourceTree = "<group>";
+		};
+		8A4F83172674A6DDCC48F780B5FD762A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C5260D5E73BCEAE077A0EB371FC7C9B /* FoursquareAPIClient.framework */,
+				FB21C34076453A1F1883EE6A15A1476E /* Pods_FoodaSearch.framework */,
+				0A41A78A07B7B5A5C7533861B4677E6C /* Pods_FoodaSearch_FoodaSearchUITests.framework */,
+				119DF094E5919877AC4D54716C539130 /* Pods_FoodaSearchTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B14FEA8F1FA4909226D329D1313417F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E85F0352F2D7C6652847A4EC63ED326E /* FoursquareAPIClient.modulemap */,
+				C25D44A00BAAE0FACBE64A76DEF04AA7 /* FoursquareAPIClient-dummy.m */,
+				542E7FE9BAC9B96342142A1F8C8EB444 /* FoursquareAPIClient-Info.plist */,
+				A92983259A9823486BB5DA343754F460 /* FoursquareAPIClient-prefix.pch */,
+				1D57310D539B45CFE6136FB34E35CE7D /* FoursquareAPIClient-umbrella.h */,
+				5CF0F1211F0B81B521F1C16F5C73E885 /* FoursquareAPIClient.debug.xcconfig */,
+				7943265182DBA68294D1AAC4AAC69966 /* FoursquareAPIClient.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FoursquareAPIClient";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E6AD43330FE8836ED99297D2E999233F /* Pods */,
+				8A4F83172674A6DDCC48F780B5FD762A /* Products */,
+				3A23A93BE6E228ECD7FC74FBB14CB70A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6AD43330FE8836ED99297D2E999233F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8674D9E2C577A04A535E26D1A04AE1D1 /* FoursquareAPIClient */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		146F9261C51FF3AF786988E2E2A26A5F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEDAF1A687DA430D076F987E59C78A34 /* Pods-FoodaSearch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D9B84895496E1A3C5F12AB81115B576 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B9376CD34A13D05A2CD53750F62F66 /* Pods-FoodaSearch-FoodaSearchUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5246EBD9511046A41F0C0D68594ED8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BB8946D23C4B8DDE8DFDF3136D58B8 /* Pods-FoodaSearchTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A73CBFF97BBFE8E858D5144E7EC402E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75DA8B808996CFEAA7F1303DB2A8279A /* FoursquareAPIClient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18F21243233EE6BA59484BB107E2102A /* Pods-FoodaSearch-FoodaSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6DC81F0A5A1E863244A479C07CB68DE /* Build configuration list for PBXNativeTarget "Pods-FoodaSearch-FoodaSearchUITests" */;
+			buildPhases = (
+				6D9B84895496E1A3C5F12AB81115B576 /* Headers */,
+				7D9963A599969DE0DE029312DD30B1E7 /* Sources */,
+				A206E25AA758341A5FD43B59BF76F4C7 /* Frameworks */,
+				A32821155E29B06E21C63649D6170243 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB33A74A42B0973134988D2181916E4E /* PBXTargetDependency */,
+			);
+			name = "Pods-FoodaSearch-FoodaSearchUITests";
+			productName = "Pods-FoodaSearch-FoodaSearchUITests";
+			productReference = 0A41A78A07B7B5A5C7533861B4677E6C /* Pods_FoodaSearch_FoodaSearchUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		21E6F2BA6EDECB7A0CC549C3A1A6DD2B /* FoursquareAPIClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA882BBD8F589245D3238306D8D46E48 /* Build configuration list for PBXNativeTarget "FoursquareAPIClient" */;
+			buildPhases = (
+				A73CBFF97BBFE8E858D5144E7EC402E1 /* Headers */,
+				8BDA691E1245A1483AA0D3420B5504C6 /* Sources */,
+				22D703F4F96693161874DC4C06914B3D /* Frameworks */,
+				BD32F6204A6F829134861DEEA5FDB4BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoursquareAPIClient;
+			productName = FoursquareAPIClient;
+			productReference = 0C5260D5E73BCEAE077A0EB371FC7C9B /* FoursquareAPIClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3096E3D9D9E54A3262E85200FDA1AEEE /* Pods-FoodaSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67F5613927A317CC9464C4F15DBA86F3 /* Build configuration list for PBXNativeTarget "Pods-FoodaSearch" */;
+			buildPhases = (
+				146F9261C51FF3AF786988E2E2A26A5F /* Headers */,
+				D793FF93DFCF4B365AAC16728F317C6B /* Sources */,
+				B23EFC5A94486A19532C02902DCDB11F /* Frameworks */,
+				D2FF393F41EFB118B70E6ECDF04E759D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DFC872857A9BBEE695E226309F1214 /* PBXTargetDependency */,
+			);
+			name = "Pods-FoodaSearch";
+			productName = "Pods-FoodaSearch";
+			productReference = FB21C34076453A1F1883EE6A15A1476E /* Pods_FoodaSearch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B87D846737B2A0F83A455068CAA9DCAB /* Pods-FoodaSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FDA2E93AD3F0502B4D67399DA85CE78 /* Build configuration list for PBXNativeTarget "Pods-FoodaSearchTests" */;
+			buildPhases = (
+				9A5246EBD9511046A41F0C0D68594ED8 /* Headers */,
+				270EED2A4782FC2A7B5034E665492F3F /* Sources */,
+				47591C5225F604379865C005393F2B53 /* Frameworks */,
+				451D07AFB51DBE0F958647D183511E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2F9CD99827B4C0D14BF9BBD96EF4A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-FoodaSearchTests";
+			productName = "Pods-FoodaSearchTests";
+			productReference = 119DF094E5919877AC4D54716C539130 /* Pods_FoodaSearchTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8A4F83172674A6DDCC48F780B5FD762A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21E6F2BA6EDECB7A0CC549C3A1A6DD2B /* FoursquareAPIClient */,
+				3096E3D9D9E54A3262E85200FDA1AEEE /* Pods-FoodaSearch */,
+				18F21243233EE6BA59484BB107E2102A /* Pods-FoodaSearch-FoodaSearchUITests */,
+				B87D846737B2A0F83A455068CAA9DCAB /* Pods-FoodaSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		451D07AFB51DBE0F958647D183511E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32821155E29B06E21C63649D6170243 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD32F6204A6F829134861DEEA5FDB4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2FF393F41EFB118B70E6ECDF04E759D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		270EED2A4782FC2A7B5034E665492F3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5DFA2958EF4261313FD87C7EA2AE732 /* Pods-FoodaSearchTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D9963A599969DE0DE029312DD30B1E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8518EE8693F7E412155513A9BF45631 /* Pods-FoodaSearch-FoodaSearchUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BDA691E1245A1483AA0D3420B5504C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53978168EA95F4F6107FD40CD1AEBBD1 /* FoursquareAPIClient-dummy.m in Sources */,
+				7BEEF73CF1222403C2BB7F62DD3A3209 /* FoursquareAPIClient.swift in Sources */,
+				71662D2855678C6E47F4B71370411C97 /* FoursquareAuthClient.swift in Sources */,
+				1AB03F8C7C500999E963A9C83BC3EDBD /* FoursquareAuthViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D793FF93DFCF4B365AAC16728F317C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA9CA7070AF912FE32F1A8DD18EE386 /* Pods-FoodaSearch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74DFC872857A9BBEE695E226309F1214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FoursquareAPIClient;
+			target = 21E6F2BA6EDECB7A0CC549C3A1A6DD2B /* FoursquareAPIClient */;
+			targetProxy = E228CB14991F482BB92BA9B3EE04203C /* PBXContainerItemProxy */;
+		};
+		AB33A74A42B0973134988D2181916E4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FoursquareAPIClient;
+			target = 21E6F2BA6EDECB7A0CC549C3A1A6DD2B /* FoursquareAPIClient */;
+			targetProxy = BB07E63BA3F599BC8EFEEC93AEF88D8B /* PBXContainerItemProxy */;
+		};
+		AC2F9CD99827B4C0D14BF9BBD96EF4A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FoodaSearch";
+			target = 3096E3D9D9E54A3262E85200FDA1AEEE /* Pods-FoodaSearch */;
+			targetProxy = CFFF1A0E17B5E2BD600C563D4E46AE9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3836E133CEE2532E890C17E059C05197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF0F1211F0B81B521F1C16F5C73E885 /* FoursquareAPIClient.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoursquareAPIClient/FoursquareAPIClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoursquareAPIClient/FoursquareAPIClient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FoursquareAPIClient/FoursquareAPIClient.modulemap";
+				PRODUCT_MODULE_NAME = FoursquareAPIClient;
+				PRODUCT_NAME = FoursquareAPIClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AA94065060C1F3745887A4135D82DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565D8C4B23217BB0B97B1E7D8913452C /* Pods-FoodaSearch-FoodaSearchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodaSearch-FoodaSearchUITests/Pods-FoodaSearch-FoodaSearchUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodaSearch-FoodaSearchUITests/Pods-FoodaSearch-FoodaSearchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D7E162172FE55D6BEBECED6FEB32361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E26EDE7E35D11673C5F86A419479CAF /* Pods-FoodaSearch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodaSearch/Pods-FoodaSearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodaSearch/Pods-FoodaSearch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7FC715207B37B631051498DE3C3BFFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B94B8FABECF8453DAB1F72470BD409 /* Pods-FoodaSearchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodaSearchTests/Pods-FoodaSearchTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodaSearchTests/Pods-FoodaSearchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		91D286F1B0F458A64E2BA82D0F1C5A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7943265182DBA68294D1AAC4AAC69966 /* FoursquareAPIClient.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FoursquareAPIClient/FoursquareAPIClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FoursquareAPIClient/FoursquareAPIClient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FoursquareAPIClient/FoursquareAPIClient.modulemap";
+				PRODUCT_MODULE_NAME = FoursquareAPIClient;
+				PRODUCT_NAME = FoursquareAPIClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ACB95A0C83B015E00AAAF47837FCECE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D6211F2CCDA58E12477A1A43225303 /* Pods-FoodaSearchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodaSearchTests/Pods-FoodaSearchTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodaSearchTests/Pods-FoodaSearchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD9854E4C9C110943E2A159978FE3902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E893622546800D1B17BED3EAC1D419E /* Pods-FoodaSearch-FoodaSearchUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodaSearch-FoodaSearchUITests/Pods-FoodaSearch-FoodaSearchUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodaSearch-FoodaSearchUITests/Pods-FoodaSearch-FoodaSearchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2FF663AD67FBEBA1D6600780C77B85E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF996E2481C3618CFB9AE95B4F51AF7C /* Pods-FoodaSearch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodaSearch/Pods-FoodaSearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodaSearch/Pods-FoodaSearch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FDA2E93AD3F0502B4D67399DA85CE78 /* Build configuration list for PBXNativeTarget "Pods-FoodaSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC715207B37B631051498DE3C3BFFF3 /* Debug */,
+				ACB95A0C83B015E00AAAF47837FCECE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67F5613927A317CC9464C4F15DBA86F3 /* Build configuration list for PBXNativeTarget "Pods-FoodaSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2FF663AD67FBEBA1D6600780C77B85E /* Debug */,
+				5D7E162172FE55D6BEBECED6FEB32361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6DC81F0A5A1E863244A479C07CB68DE /* Build configuration list for PBXNativeTarget "Pods-FoodaSearch-FoodaSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA94065060C1F3745887A4135D82DB4 /* Debug */,
+				AD9854E4C9C110943E2A159978FE3902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA882BBD8F589245D3238306D8D46E48 /* Build configuration list for PBXNativeTarget "FoursquareAPIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3836E133CEE2532E890C17E059C05197 /* Debug */,
+				91D286F1B0F458A64E2BA82D0F1C5A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
